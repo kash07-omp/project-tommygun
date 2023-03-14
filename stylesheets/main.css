@@ -15,7 +15,6 @@ nav { position: fixed; width: 100%; top:0; right: 0; left: 0; font-size: 22px; }
 header { height:100vh; width:100%; padding-top: 20px; background-image:url(../images/header-bg3.jpg); background-position:center; background-size:cover;}
 
 /* ~~~~~~~~~~~Sections~~~~~~~~~~~~~ */
-section { display:flex; width:50%; margin:auto; margin-bottom: 50px; gap:20px; }
 
 #wellcome h2 { font-size: 42px; margin-bottom:0; }
 #wellcome p { padding-left: 20px; max-width: 80%; }
@@ -24,20 +23,12 @@ section { display:flex; width:50%; margin:auto; margin-bottom: 50px; gap:20px; }
 /* ~~~~~~~~~~~Components~~~~~~~~~~~~~ */
 hr.short { display:block; height:3px; width:10%; margin:13px 0 0 0; border:none; border-radius:10px; background-color:rgb(189, 75, 75); }
 
-/* SECTION CARDS */ 
-section.hero { flex-direction:column; width:100%; padding-top:50px; padding-bottom:50px; background-image:url(../images/factions.jpeg); background-position:center; background-size:cover; }
-section.hero div { width:50%; padding:0 100px; }
-
-/* CARDS */ 
-div.cards {  display:flex; width:50%; margin:auto; margin-bottom: 50px; justify-content:center; flex-direction:row; gap:100px; }
-    div.cards div.card { width:300px; height:400px; background-color:#202020; border:4px solid; border-color:rgb(189, 75, 75);}
-
 div.separator-bottom { width:100%; height:70px; margin-bottom:50px; background-image:url(../images/pattern-2.png); }
 div.separator-top { width:100%; height:70px; background-image:url(../images/pattern-1.png); }
 
 
   /* TEST */
-
+/*
   section{
     opacity: 0.0;
   transform: translate(0, 70px);
@@ -47,4 +38,4 @@ div.separator-top { width:100%; height:70px; background-image:url(../images/patt
     opacity: 1;
     transform: translate(0, 0);
   }
-  
+  */
